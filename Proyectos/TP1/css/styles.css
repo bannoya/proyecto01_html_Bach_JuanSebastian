@@ -23,7 +23,8 @@
     align-items: center;
 
 }
-.header h1{
+
+.header h1 {
     margin: 100px;
 }
 
@@ -60,7 +61,7 @@
 .main {
     grid-area: main;
     border: 1px black solid;
-    background-color: rgba(84, 113, 122, 0.219) ;
+    background-color: rgba(84, 113, 122, 0.219);
 }
 
 .product-conteiner {
@@ -68,14 +69,14 @@
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap:200px;
+    gap: 200px;
     height: 100%;
 }
 
-.product-class {      
-  padding: 20px;           
-  margin: 20px;           
-  text-align: center;       
+.product-class {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
 }
 
 
