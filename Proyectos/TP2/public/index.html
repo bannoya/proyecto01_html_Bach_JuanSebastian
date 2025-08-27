@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 2</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Simulador De Salario Mensual</h1>
+        <h2 class="subtitle">Ingresa tus datos y calcula tu pago mensual</h2>
+        <form>
+            <div class="name">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name">
+            </div>
+            <div class="hours">
+                <label for="hours">Horas trabajadas al mes:</label>
+                <input type="number" id="hours">
+            </div>
+            <div class="pay">
+                <label for="pay">Pago por hora:</label>
+                <input type="number" id="pay">
+            </div>
+            <button type="button" onclick="calcular()">Calcular</button>
+
+        </form>
+        <p id="salario">0$</p>
+
+    </div>
+    <script src="../src/index.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,68 @@
+body {
+  display: grid;
+  place-items: center; 
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+    
+    border: 1px solid black;
+}
+
+.title {
+
+    text-align: center;
+    margin-top: 30px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.name {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.name input {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.hours {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hours input {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.pay {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pay input {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.container form button {
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.container p {
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid black;
+}
